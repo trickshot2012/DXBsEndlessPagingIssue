@@ -9,4 +9,9 @@ No matter which PageSize you define in SettingsPager, it doesnt do any differenc
 
 
 ## Solution
+Change Settings-VerticalScrollableHeight property of the grid 
+
+```
+Settings-VerticalScrollableHeight="500" 
+```
 

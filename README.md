@@ -1,6 +1,6 @@
 # DXBsEndlessPagingIssue
 No matter which PageSize you define in SettingsPager, it doesnt do any difference
-Only 6 Rows are shown
+, only 6 rows are shown always
 
 
 ![Image Screenshot](end2.JPG)

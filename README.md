@@ -3,7 +3,7 @@ On Chrome and Firefox its fine , on IE the height is not properly adapted.
 If you set a fixed height as a workaround its rerenders the control on every click, what
 is even worse than the first problem.
 
-![Image Screenshot](ie.JPG)
+![Chrome-Look](chromelook.PNG)
 
-![Image Screenshot](chrome.JPG)
+![IE-Look](ielook.PNG)
 

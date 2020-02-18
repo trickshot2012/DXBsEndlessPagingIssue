@@ -5,7 +5,7 @@
 <head runat="server">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Endless Paging - Page-Size of initial Gridview</title>
+    <title>IE adaptive bug on BootstrapFilemanager</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" /> 
     <link href="~/Content/Site.css" rel="stylesheet" /> 
 
@@ -22,7 +22,7 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenu" aria-controls="topMenu" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <a class="navbar-brand" href="#">EndlessPaging PageSize dont work</a>
+                        <a class="navbar-brand" href="#">IE adaptive bug on BootstrapFilemanager</a>
                     </div>
                     <div class="collapse navbar-collapse" id="topMenu">
                         <dx:BootstrapMenu ID="TopMenu" runat="server" ShowPopOutImages="True" ItemAutoWidth="false" ClientInstanceName="topMenu">

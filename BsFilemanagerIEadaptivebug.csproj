@@ -72,6 +72,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Filemanager.aspx" />
+    <Content Include="Files\NewFolder1\HtmlPage1.html" />
+    <Content Include="Files\NewFolder1\HtmlPage2.html" />
+    <Content Include="Files\NewFolder1\HtmlPage3.html" />
+    <Content Include="Files\NewFolder1\HtmlPage4.html" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery.min.js" />
@@ -97,6 +102,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Filemanager.aspx.cs">
+      <DependentUpon>Filemanager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Filemanager.aspx.designer.cs">
+      <DependentUpon>Filemanager.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -114,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\NewFolder2\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
